@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(25deg, #8600b3 50%, #cc33ff 50%); */
+}
+
+.contain{
+    outline: 2px solid green;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 100px;
+    box-sizing: border-box;
+    height: 50vh;
+    display: flex;
+    border-radius: 20px;
+    background: rgb(219, 219, 226);
+
+}
+.contain1 {
+    display: flex;
+    margin: 20px;
+    box-sizing: border-box;
+    border-radius: 20px 0px 0px 20px;
+    background-color: aliceblue;
+    border: 2px solid green;
+    box-shadow: -2px 0px 3px;
+}
+.contain2{
+    border-radius: 1px 0px 0px 60px;
+    background: rgb(22, 22, 117);
+    border: 2px solid red;
+}
+.input-field{
+    padding: 4px;
+}
+form{
+    margin: 30px;
+}
+.input-icon .fa-solid{
+    position: absolute;
+    padding: 5px;
+    background-color:antiquewhite;
+    min-width: 8px;
+    color: black;
+}
+.input-flex{
+    display: flex;
+    text-align: end;
+}
+.mor-type{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.button-with-radio {
+    position: relative;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-with-radio input[type="radio"] {
+    margin-right: 10px;
+}
+
+
+button{
+    margin: 10px;
+}
+
+@media screen and (max-width:780px) {
+    .contain1{
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px;
+    }
+    .contain{
+        outline: none;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        margin: 100px;
+        box-sizing: border-box;
+        background-color: none;
+    }
+    }
+    .contain2{
+        border-radius: 0px;
+    }
