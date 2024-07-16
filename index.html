@@ -20,20 +20,30 @@
                         <i class="fa-solid fa-euro-sign"></i>
                         <input type="text" class="input-field">
                         <div class="input-flex">
-                            <label for="">Mortgage Term</label>
-                            <input type="year">
-                            <label for="">Interest Rate %</label>
-                            <input type="year">
+                            <div> <label for="">Mortgage Term</label>
+                                <input type="year"></div>
+                            <div> <label for="">Interest Rate %</label>
+                                <input type="year"></div>
+                           
+                           
                         </div>
                         <div class="mor-type">
                             <label for="">Mortgage Type</label>
-                            <button> <input type="radio" name="" class="button-with-radio " id="RepayBtn"> Repayment</button>
+                            <div style="border: 1px solid black; border-radius: 5px;
+                            display: flex;padding: 8.5px; text-indent: 10px; justify-content: flex-start; align-items: center; gap: 4px;">
+                            <input type="radio" name="" class="button-with-radio " id="RepayBtn">
+                            <p style="font-size: medium;">  Repayment</p>
+                            </div>
+                            <div style="border: 1px solid black; border-radius: 5px;
+                            display: flex;padding: 8.5px; text-indent: 10px; justify-content: flex-start; align-items: center; gap: 4px;">
+                            <input type="radio" name="" class="button-with-radio " id="RepayBtn">
+                            <p style="font-size: medium;">  Interest </p>
+                            </div>
                             
-                            <button> <input type="radio" name="" class="button-with-radio " id="InterestBtn"> Interest Only</button>
                         </div>
                        
                         <div class="cal-repayment">
-                            <button>Calculate Repayments</button>
+                            <button class="cal-repaymentbtn">Calculate Repayments</button>
                         </div>
                     </form>
                     </div>
