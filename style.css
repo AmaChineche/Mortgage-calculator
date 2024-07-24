@@ -68,6 +68,7 @@ form{
     flex-direction: column;
     justify-content: flex-start;
     text-align: left;
+    gap: 12px;
 }
 
 .button-with-radio {
@@ -91,7 +92,7 @@ form{
 button{
     margin: 10px;
 }
-.cal-repaymentbtn{
+.cal-repayment-button{
     margin: 8px;
     padding: 10px 25px 10px 25px;
     border-radius: 20px;
@@ -115,7 +116,7 @@ button{
     }
     .input-flex{
         position: relative;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: flex;
         flex-direction: column;
         justify-content: center;
