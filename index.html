@@ -16,7 +16,7 @@
                     <div class="main">
 
                         <h2>Mortgage-calculator</h2>
-                        <div class="Amount">
+                        <div class="Amount" onkeyup="amountMortgage()">
                            <div> <p> Mortgage Amount</p></div> 
                             <!-- <i class="fa-solid fa-euro-sign"></i> -->
                             <div><input type="text" class="input-field"></div>
@@ -44,8 +44,9 @@
                             </div>
                             <div style="border: 1px solid black; border-radius: 5px;
                             display: flex;padding: 8.5px; text-indent: 10px; justify-content: flex-start; align-items: center; gap: 4px;">                            <p style="font-size: medium;">  Interest </p>
-                           
+  
                         </div>
+                        <div class="hide" style="color: red;"> please enter valid values</div>
                         <div class="cal-repayment">
                             <button class="cal-repayment-button"><i class="fa-solid fa-calculator"></i>Calculate Repayments</button>
                         </div>
